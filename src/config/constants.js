@@ -7,10 +7,10 @@ const ConfigurableValues = () => {
   console.log("configuration", configuration);
   const SERVER_URL = "https://enatega-multivendor.up.railway.app/";
   const WS_SERVER_URL = "wss://enatega-multivendor.up.railway.app/";
-  const GOOGLE_CLIENT_ID = configuration.webClientID;
-  const STRIPE_PUBLIC_KEY = configuration.publishableKey;
+  const GOOGLE_CLIENT_ID = "275477741831-rg0cj4gkngvgv1nhasu372kn3jb5q1te.apps.googleusercontent.com";
+  const STRIPE_PUBLIC_KEY = "pk_test_51PCnGaSDOwoCcgiGetFgd4rkSm1NTmig9MkBWrxGkRkDY10hOjnrrMFQjiEw3NwLlBDsOIr1hWRHovH9Av9v6Xl000BQ80t0zg";
   const PAYPAL_KEY = configuration.clientId;
-  const GOOGLE_MAPS_KEY = configuration.googleApiKey;
+  const GOOGLE_MAPS_KEY = "AIzaSyAPcowzAMDsWl-TU8yhHFldClstNfF9zvQ";
   const AMPLITUDE_API_KEY = configuration.webAmplitudeApiKey;
   const LIBRARIES = "places,drawing,geometry,localContext,visualization".split(
     ","
