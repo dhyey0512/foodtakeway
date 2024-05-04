@@ -7,13 +7,13 @@ import { getMessaging, isSupported } from "firebase/messaging";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDx_iSQ9LroTF7NMm20aRvw2wJqhwSnJ3U",
-  authDomain: "enatega-multivender-web.firebaseapp.com",
-  projectId: "enatega-multivender-web",
-  storageBucket: "enatega-multivender-web.appspot.com",
-  messagingSenderId: "438532750182",
-  appId: "1:438532750182:web:516b850eff4e0349f0a6a7",
-  measurementId: "G-KLBJSEHRYQ",
+  apiKey: "AIzaSyCCYOxTQBBj0Jf-Ld1d9GNubCVKrplH4a8",
+  authDomain: "foodtakeaway-79d22.firebaseapp.com",
+  projectId: "foodtakeaway-79d22",
+  storageBucket: "foodtakeaway-79d22.appspot.com",
+  messagingSenderId: "442864222",
+  appId: "1:442864222:web:b2d25eb01fe8b1f29d1acf",
+  measurementId: "G-JYKSLFP47H"
 };
 
 export const initialize = () => {
