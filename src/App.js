@@ -138,8 +138,8 @@ function App() {
   return GOOGLE_MAPS_KEY ? (
     <HashRouter>
       <GoogleMapsLoader GOOGLE_MAPS_KEY={GOOGLE_MAPS_KEY} LIBRARIES={LIBRARIES}>
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <Routes> 
+          <Route path="/" element={ <Home />} />
           <Route path="/restaurant-list" element={<Restaurants />} />
           <Route path="/restaurant/:slug" element={<RestaurantDetail />} />
           <Route path="/privacy" element={<Privacy />} />

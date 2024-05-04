@@ -138,12 +138,12 @@ function PricingView(props) {
         }}
         className={classes.border}
       >
-        <Typography className={classes.subtotalText}>
+        {/* <Typography className={classes.subtotalText}>
           {t("deliveryFee")}
-        </Typography>
-        <Typography className={classes.subtotalText}>
+        </Typography> */}
+        {/* <Typography className={classes.subtotalText}>
           {`${configuration.currencySymbol} ${deliveryCharges.toFixed(2)}`}
-        </Typography>
+        </Typography> */}
       </Box>
       <Box
         style={{

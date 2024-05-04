@@ -109,7 +109,7 @@ function Checkout() {
 
   const [coupon, setCoupon] = useState({});
   const [selectedDate, handleDateChange] = useState(new Date());
-  const [isPickUp, setIsPickUp] = useState(false);
+  const [isPickUp, setIsPickUp] = useState(true);
   const [deliveryCharges, setDeliveryCharges] = useState(0);
 
   let restCoordinates = {};
@@ -578,7 +578,7 @@ function Checkout() {
                   fontWeight: 600,
                 }}
               >
-                {t("deliveryTime")}
+                {t("Pickup Time")}
               </Typography>
               <Typography
                 style={{
@@ -599,7 +599,7 @@ function Checkout() {
                     fontWeight: 600,
                   }}
                 >
-                  {isPickUp ? t("pickUp") : t("delivery")}
+                  {t("pickUp")}
                 </Typography>
                 <Button
                   variant="contained"

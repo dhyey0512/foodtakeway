@@ -78,36 +78,7 @@ function OrderOption(props) {
             borderRadius: 20,
           }}
         >
-          <Box
-            onClick={() => {
-              setIsPickUp(false);
-            }}
-            display="flex"
-            justifyContent="center"
-            alignItems="center"
-            style={{
-              backgroundColor: !isPickUp
-                ? theme.palette.common.black
-                : "transparent",
-
-              padding: 10,
-              borderRadius: 20,
-              flexBasis: "50%",
-            }}
-          >
-            <Typography
-              variant="body1"
-              style={{
-                fontSize: 12,
-                color: !isPickUp
-                  ? theme.palette.common.white
-                  : theme.palette.common.black,
-              }}
-              fontWeight={600}
-            >
-              {t('deliver')}
-            </Typography>
-          </Box>
+          
           <Box
             onClick={() => {
               setIsPickUp(true);

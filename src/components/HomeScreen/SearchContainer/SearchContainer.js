@@ -170,8 +170,8 @@ function SearchContainer({
               }}
               zoom={10}
               center={{
-                lat: parseFloat(location?.latitude) || 33.6844,
-                lng: parseFloat(location?.longitude) || 73.0479,
+                lat: parseFloat(location?.latitude) || 18.33319,
+                lng: parseFloat(location?.longitude) || 73.45491,
               }}
               options={{
                 styles: mapStyles,

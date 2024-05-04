@@ -29,6 +29,7 @@ import AppComponent from "../../components/HomeScreen/AppComponent";
 import Banner2 from "../../assets/images/banner-2.png";
 import Banner1 from "../../assets/images/banner-1.png";
 import { useTranslation } from 'react-i18next';
+import { redirect } from "react-router-dom";
 
 function Home() {
   const { t } = useTranslation()
@@ -55,7 +56,7 @@ function Home() {
       check = true;
     }
   }, [error]);
-
+window.location.href = "#/restaurant-list"
   return (
     <Sentry.ErrorBoundary fallback={<p>An error has occurred</p>}>
       <Box className={classes.root}>

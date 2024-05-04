@@ -70,7 +70,7 @@ function Checkout() {
   const [selectedAddress, setSelectedAddress] = useState();
   const [coupon, setCoupon] = useState({});
   const [selectedDate, handleDateChange] = useState(new Date());
-  const [isPickUp, setIsPickUp] = useState(false);
+  const [isPickUp, setIsPickUp] = useState(true);
   const [deliveryCharges, setDeliveryCharges] = useState(0);
 
   const { loading, data, error } = useRestaurant(cartRestaurant);
