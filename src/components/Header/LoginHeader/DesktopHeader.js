@@ -36,7 +36,7 @@ function LoginDesktopHeader({ title, showIcon, showCart = false }) {
           </Typography>
         </RouterLink>
         <Box className={classes.flex}>
-          {showIcon && (
+          {false && (
             <>
               <Divider flexItem orientation="vertical" light />
               <RouterLink to={"/login"} className={classes.linkDecoration}>

@@ -20,7 +20,7 @@ function Header({ showIcon = false }) {
   const showCart = !REGISTRATION_PATH.includes(location.pathname);
 
   return (
-    <LoginDesktopHeader showIcon={showIcon} title={TITLE} showCart={showCart} />
+    <LoginDesktopHeader showIcon={false} title={TITLE} showCart={showCart} />
   );
 }
 
