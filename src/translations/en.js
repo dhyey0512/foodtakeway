@@ -146,7 +146,7 @@ const en = {
     continue: "Continue",
     invalidEmail: "Invalid Email",
     letsGetStarted: "Let's get started!",
-    createAccount: "Create your Enatega Account",
+    createAccount: "Create your TakeawayTray Account",
     firstnameErr1: "Firstname is required!",
     firstnameErr2: "Invalid First Name!",
     lastnameErr1: "Lastname is required!",
